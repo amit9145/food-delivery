@@ -1,0 +1,244 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background-color: #fff;
+  color: #000;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+   background: white;
+   padding: 10px 200px;
+}
+.logo {
+  font-size: 22px;
+  font-weight: 600;
+  color: rgb(0, 60, 0);
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 35px;
+ 
+}
+.services svg{
+  margin-top: -20px;
+}
+.menu {
+  margin-top: -20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  font-weight: 500;
+  display: block;
+  text-align: center;
+  justify-content: center;
+  padding-top: 0;
+  
+}
+.sign-in {
+  font-size: 13px;
+  font-weight: 500;
+  color: #004734;
+  font-family: 'Segoe UI', sans-serif;
+  background: #eec241;
+  border: none;
+  padding: 12px 40px;
+  border-radius: 50px;
+  cursor: pointer;
+  
+}
+#page1{
+  padding: 100px 0px 0px 200px;
+}
+
+
+
+.tagline {
+  background-color: beige;
+  padding: 8px 14px;
+  border-radius: 20px;
+  display: inline-block;
+  font-size: 14.4px;
+  color: #004734;
+  margin-bottom: 20px;
+}
+
+.food-info h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  margin: 0;
+  line-height: 1.2;
+  
+}
+
+.highlight {
+  color: #004734;
+}
+.food-info p{
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(75, 75, 75);
+  width: 25%;
+  padding-top: 10px;
+  line-height: 25px;
+}
+
+.buttons {
+  margin-top: 50px;
+}
+
+.get-started {
+  background-color: #eec241;
+  color: #003729;
+  font-family: 'Segoe UI', sans-serif;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 50px;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.watch-video {
+  margin-left: 30px;
+  background-color: #dddddd;
+   padding: 12px 28px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 500;
+  color: #003729;
+  
+} 
+
+.profile-container{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+}
+.profile{
+  display: flex;
+  gap: 6px;
+}
+.profile img{
+  width: 40px;
+  padding-top: 60px;
+  padding-right: 25px;
+}
+.text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  font-size: 16px;
+  padding-top: 40px;
+}
+.girl-image{
+  position: relative;
+  
+}
+.girl-image img{
+  position: relative;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  right: -600px;
+  top: -500px;
+  background-color: white;
+}
+#contact-card{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+  
+}
+#contact-card p{
+  position: relative;
+  /* text-align: center; */
+  font-size: 15px;
+  top: -680px;
+  justify-content: space-around;
+   background-color: #dddddd;
+  padding: 10px 78px 30px ;
+  width: 110px;
+  height: 20px;
+  border-radius: 50px;
+  
+ 
+}
+#contact-card .profile-png{
+  width: 50px;
+  height: 50px;
+  top: -680px;
+  right: -390px;
+  z-index: 10;
+}
+#contact-card .phone-png{
+  width: 50px;
+  height: 50px;
+  top: -680px;
+  left: -400px;
+  z-index: 10;
+}
+
+#page2 .heading{
+  width: 600px;
+  margin-top: -400px;
+  margin-left: 280px;
+  padding: 0;
+  text-align: center;
+}
+.heading h3{
+  color: #003729;
+  font-family: 'Segoe UI', sans-serif;
+}
+.heading h1{
+  font-size: 45px;
+}
+#feature-info {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 40px;
+  flex-wrap: wrap;
+  text-align: center;
+  flex-wrap: wrap;
+  margin-right: 180px;
+  
+}
+#feature-info .feature{
+  min-width: 200px;
+  
+}
+#feature-info h2{
+  text-align: center;
+}
+#feature-info p{
+  width: 200px;
+  margin-left: 35px;
+  cursor: rgb(75, 75, 75);
+  font-weight: 490;
+
+}
+
+#feature-info img{
+ width: 280px;
+ height: 280px;
+ 
+}
+
+
+
+
+
+
+
+
+  
